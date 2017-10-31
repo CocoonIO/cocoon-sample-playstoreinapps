@@ -1,12 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cocoon.sample.android.inapppurchases" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cocoon="http://cocoon.io/ns/1.0">
-    <name>Cocoon Google Play Store InApp purchases demo</name>
-    <description>
-        Demo to showcase the Cocoon Google Play Store InApp purchases plugin.
-    </description>
-    <author email="support@cocoon.io" href="http://cocoon.io">
-        Cocoon Team
-    </author>
+    <name>Cocoon Google Play Store InApp demo</name>
+    <description>Demo to showcase the Cocoon Google Play Store InApp purchases plugin.</description>
+    <author email="support@cocoon.io" href="http://cocoon.io">Cocoon Team</author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <access origin="*" />
@@ -26,7 +22,7 @@
     </platform>
     <preference name="Orientation" value="portrait"/>
     <preference name="Fullscreen" value="true"/>
-    <cocoon:plugin name="cocoon-plugin-inapps-android-googleplay" />
+    <plugin name="cocoon-plugin-inapps-android-googleplay" />
 
         <!-- ANDROID -->
     <platform name="android">
